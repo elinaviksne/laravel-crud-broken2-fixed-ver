@@ -60,7 +60,7 @@
 
                 <span class="float-right">
                      <form 
-                        action="/blog/{{ $post->slug }}"
+                        action="/blog/{{ $post->slug }}/delete"
                         method="POST">
                         @csrf
                         @method('delete')
